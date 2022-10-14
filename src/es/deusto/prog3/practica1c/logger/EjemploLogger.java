@@ -23,6 +23,9 @@ public class EjemploLogger {
     // Creamos el logger pasando como parámetro el nombre de la clase actual
     private static Logger logger = Logger.getLogger(EjemploLogger.class.getName());
 
+    
+    
+    
     // Niveles de importancia para el log:
 	// FINEST / FINER / FINE / CONFIG / INFO / WARNING / SEVERE
 	// Por defecto se muestran en consola de error sólo INFO-WARNING-SEVERE
